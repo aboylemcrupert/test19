@@ -2,6 +2,6 @@
 
 ### Contributors
  - [Andrew Boyle] (https://github.com/andrewboyle18)
- - [Sarah Levering]()
+ - [Sarah Levering](https://github.com/sarahlev88)
  - [Cedric Samkian]()
  - 
