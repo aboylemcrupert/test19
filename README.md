@@ -6,6 +6,6 @@
  - [Andrew Yang](https://github.com/Jimindrew)
  - [Joseph Kahale(Only present for the first day)](https://github.com/JoeyK23)
 
- - 
+ - [Noah Ataya](https://github.com/noahataya)
  - 
 - 
