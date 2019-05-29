@@ -2,7 +2,7 @@
 
 import pkg.*;
 import java.util.ArrayList;
-public class HangManGame implements GameState {
+public class hangManGame implements GameState {
 	EasyReader input;
 	ArrayList<String> words;
 	public hangManGame(String file){
