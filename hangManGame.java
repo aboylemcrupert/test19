@@ -2,7 +2,7 @@
 
 import pkg.*;
 import java.util.ArrayList;
-public class hangManGame implements GameState {
+public class HangManGame implements GameState {
 	EasyReader input;
 	ArrayList<String> words;
 	public hangManGame(String file){
@@ -33,6 +33,31 @@ public class hangManGame implements GameState {
 				down.fill();
 			Rectangle base = new Rectangle(x+40,y+210,80,10);
 				base.fill();
+	}
+	
+	public void addHead(){
+		
+	}
+	public void addRArm(){
+		
+	}
+	public void addLArm(){
+		
+	}
+	public void addRLeg(){
+		
+	}
+	public void addLLeg(){
+		
+	}
+	public void addREye(){
+		
+	}
+	public void addLEye(){
+		
+	}
+	public void addLips(){
+		
 	}
 	
 	public boolean isGameOver(){
