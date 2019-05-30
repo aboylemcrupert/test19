@@ -1,23 +1,23 @@
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
-public interface GameState
-{
-	boolean isGameOver();
+// public interface GameState
+// {
+	// boolean isGameOver();
 	
 	
-	Player getWinner();
+	// Player getWinner();
 	
 	
-	Player getCurrentPlayer();
+	// Player getCurrentPlayer();
 	
 	
-	ArrayList<String> getCurrentMoves();
+	// ArrayList<String> getCurrentMoves();
 	
 	
-	void makeMove(String move);
+	// void makeMove(String move);
 	
 	
-	String toString();
-}
+	// String toString();
+// }
 
 
