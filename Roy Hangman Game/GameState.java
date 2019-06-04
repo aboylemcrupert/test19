@@ -1,8 +1,8 @@
-// import java.util.ArrayList;
+import java.util.ArrayList;
 
-// public interface GameState
-// {
-	// boolean isGameOver();
+public interface GameState
+{
+	boolean isGameOver();
 	
 	
 	// Player getWinner();
@@ -14,10 +14,13 @@
 	// ArrayList<String> getCurrentMoves();
 	
 	
-	// void makeMove(String move);
+	void makeMove(String s);
 	
 	
-	// String toString();
-// }
+	boolean newLetterEntered(String s);
+	
+	
+	String toString();
+}
 
 
