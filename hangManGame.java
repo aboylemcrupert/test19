@@ -30,7 +30,7 @@ public class hangManGame implements GameState{
 		int rand = (int)(Math.random()*words.size());
 		answer = words.get(rand);
 		hint = hints.get(rand);
-		System.out.println(hint);
+		// System.out.println(hint);
 		drawHangManSetup();
 		lettersEntered = new ArrayList<String>();
 		winCounter = 0;
@@ -55,79 +55,79 @@ public class hangManGame implements GameState{
 			if(c == 0){
 				letters.add("a");
 			}
-			if(c == 0){
+			if(c == 1){
 				letters.add("b");
 			}
-			if(c == 0){
+			if(c == 2){
 				letters.add("c");
 			}
-			if(c == 0){
+			if(c == 3){
 				letters.add("d");
 			}
-			if(c == 0){
+			if(c == 4){
 				letters.add("e");
 			}
-			if(c == 0){
+			if(c == 5){
 				letters.add("f");
 			}
-			if(c == 0){
+			if(c == 6){
 				letters.add("g");
 			}
-			if(c == 0){
+			if(c == 7){
 				letters.add("h");
 			}
-			if(c == 0){
+			if(c == 8){
 				letters.add("i");
 			}
-			if(c == 0){
+			if(c == 9){
 				letters.add("j");
 			}
-			if(c == 0){
+			if(c == 10){
 				letters.add("k");
 			}
-			if(c == 0){
+			if(c == 11){
 				letters.add("l");
 			}
-			if(c == 0){
+			if(c == 12){
 				letters.add("m");
 			}
-			if(c == 0){
+			if(c == 13){
 				letters.add("n");
 			}
-			if(c == 0){
+			if(c == 14){
 				letters.add("o");
 			}
-			if(c == 0){
+			if(c == 15){
 				letters.add("p");
 			}
-			if(c == 0){
+			if(c == 16){
 				letters.add("q");
 			}
-			if(c == 0){
+			if(c == 17){
 				letters.add("r");
 			}
-			if(c == 0){
+			if(c == 18){
 				letters.add("s");
 			}
-			if(c == 0){
+			if(c == 19){
 				letters.add("t");
 			}
-			if(c == 0){
+			if(c == 20){
 				letters.add("u");
 			}
-			if(c == 0){
+			if(c == 21){
 				letters.add("v");
 			}
-			if(c == 0){
+			if(c == 22){
 				letters.add("w");
 			}
-			if(c == 0){
+			if(c == 23){
 				letters.add("x");
 			}
-			if(c == 0){
+			if(c == 24){
 				letters.add("y");
 			}
-			if(c == 0){
+			if(c == 25){
 				letters.add("z");
 			}
 		}
