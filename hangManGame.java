@@ -11,6 +11,7 @@ public class hangManGame implements GameState{
 	private ArrayList<Picture> leaves;
 	private ArrayList<Text> eachLetter;
 	private ArrayList<String> lettersEntered;
+	private ArrayList<String> letters;
 	private int winCounter;
 	private int loseCounter;
 	private int endGameIfOne;
@@ -48,6 +49,88 @@ public class hangManGame implements GameState{
 			
 		possibleMoves = new ArrayList<String>();
 		possibleMoves = fillList();
+		
+		letters = new ArrayList<String>();
+		for(int c = 0; c < 26; c++){
+			if(c == 0){
+				letters.add("a");
+			}
+			if(c == 0){
+				letters.add("b");
+			}
+			if(c == 0){
+				letters.add("c");
+			}
+			if(c == 0){
+				letters.add("d");
+			}
+			if(c == 0){
+				letters.add("e");
+			}
+			if(c == 0){
+				letters.add("f");
+			}
+			if(c == 0){
+				letters.add("g");
+			}
+			if(c == 0){
+				letters.add("h");
+			}
+			if(c == 0){
+				letters.add("i");
+			}
+			if(c == 0){
+				letters.add("j");
+			}
+			if(c == 0){
+				letters.add("k");
+			}
+			if(c == 0){
+				letters.add("l");
+			}
+			if(c == 0){
+				letters.add("m");
+			}
+			if(c == 0){
+				letters.add("n");
+			}
+			if(c == 0){
+				letters.add("o");
+			}
+			if(c == 0){
+				letters.add("p");
+			}
+			if(c == 0){
+				letters.add("q");
+			}
+			if(c == 0){
+				letters.add("r");
+			}
+			if(c == 0){
+				letters.add("s");
+			}
+			if(c == 0){
+				letters.add("t");
+			}
+			if(c == 0){
+				letters.add("u");
+			}
+			if(c == 0){
+				letters.add("v");
+			}
+			if(c == 0){
+				letters.add("w");
+			}
+			if(c == 0){
+				letters.add("x");
+			}
+			if(c == 0){
+				letters.add("y");
+			}
+			if(c == 0){
+				letters.add("z");
+			}
+		}
 	}
 	
 	private ArrayList<String> fillList(){
@@ -234,6 +317,21 @@ public class hangManGame implements GameState{
 			ans.grow(100,20);
 			ans.draw();
 			endGameIfOne++;
+		}
+	}
+	
+	public boolean trueIfLetter(String s){
+		int i = 0;
+		for(int c = 0; c < letters.size(); c++){
+			if(s.equals(letters.get(c))){
+				i++;
+			}
+		}
+		if(i > 0){
+			return true;
+		}
+		else{
+			return false;
 		}
 	}
 	

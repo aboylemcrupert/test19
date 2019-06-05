@@ -20,6 +20,9 @@ public interface GameState
 	boolean newLetterEntered(String s);
 	
 	
+	boolean trueIfLetter(String s);
+	
+	
 	String toString();
 }
 
