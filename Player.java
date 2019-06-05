@@ -10,14 +10,14 @@ public class Player{
 	}
 	
 	public String getName(){			
-			Text winnerIs = new Text(540,350, "The winner is: ");
+			Text winnerIs = new Text(540,360, "The winner is: "+name);
 			winnerIs.setColor(Color.BLUE);
-			winnerIs.grow(60,40);
+			winnerIs.grow(80,30);
 			winnerIs.draw();
 			
-			Text winner = new Text(540,400,name);
-			winner.grow(20,20);
-			winner.draw();
+			// Text winner = new Text(540,400,name);
+			// winner.grow(20,20);
+			// winner.draw();
 			return name;
 	}
 	
