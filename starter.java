@@ -7,9 +7,8 @@ public class starter implements InputKeyControl
 	public static void main(String args[])
 	{
 		KeyController kC = new KeyController(Canvas.getInstance(),new starter());
-		GameState g = new hangManGame("hangman list.txt");
+		GameState g = new hangManGame("hangman list.txt", "Student");
 		game = new GameDriver(g);
-		// game.play();
 	}
 	
 	public void keyPress(String s)

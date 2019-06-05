@@ -14,7 +14,10 @@ public interface GameState
 	ArrayList<String> getCurrentMoves();
 	
 	
-	void makeMove(String move);
+	void makeMove(String s);
+	
+	
+	boolean newLetterEntered(String s);
 	
 	
 	String toString();

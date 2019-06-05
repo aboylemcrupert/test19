@@ -1,24 +1,24 @@
 abruptly/suddenly
 absurd/weird
-abyss/big, dark hole
+abyss/big hole
 askew/messed up
 avenue/street
 awkward/uncomfortable
 bagpipes/Scottish
-banjo/instrument
-beekeeper/occupation
-blizzard/storm
-bookworm/reading
+banjo/guitar
+beekeeper/bees
+blizzard/snow
+bookworm/smart reader
 boxcar/vehicle
 buffalo/animal
-buffoon/foolish
+buffoon/fool
 buzzard/animal
 buzzing/sound
 chartreuse/color
 cobweb/spider
 croquet/game or sport
 crypt/under a church
-cycle/around or loop
+cycle/around
 dizzying/spinning
 duplex/building
 embezzle/steal
@@ -28,9 +28,10 @@ exodus/emigrating
 fishhook/fishing
 fixable/repair
 fjord/water
-flapjack/pancakes
+flapjack/pancake
 flopping/moving wildly
 fluffiness/soft
+foxglove/flower
 frazzled/exhausted
 frizzled/frying
 fuchsia/color
@@ -42,6 +43,7 @@ glowworm/animal
 glyph/symbol
 gnarly/dangerous
 gossip/rumors
+grogginess/weak
 haiku/poem
 haphazard/unorganized
 hyphen/punctuation
@@ -51,8 +53,8 @@ ivory/piano
 jackpot/lottery
 jawbreaker/candy
 jaywalk/illegal
-jazzy/music style
-jelly/sweet
+jazzy/music
+jelly/donut
 jigsaw/puzzle
 jinx/superstitious
 jockey/horseback riding
@@ -64,21 +66,22 @@ jukebox/music
 jumbo/big
 kayak/boat
 kazoo/instrument
-keyhole/part of a door
+keyhole/door
 khaki/color
+kilobyte/data
 kiosk/small booth
 kiwi/fruit
 knapsack/bag
 larynx/throat
 lucky/fortunate
 luxury/expensive
-microwave/warm up
+microwave/food
 mystify/baffle
 nymph/mythology
-oxidize/add oxygen
+oxidize/oxygen
 oxygen/air
-pajamas/sleeping
-peekaboo/game
+pajama/sleep
+peekaboo/baby game
 pixel/small unit
 pizazz/glamour
 pneumonia/illness
@@ -90,47 +93,60 @@ quartz/mineral
 queue/a line or list
 quiz/test
 quizzes/tests
-rhubarb/vegetable
-rhythm/pattern
-scratch/itchy
-snazzy/stylish
-sphinx/monster
-squawk/sound
-staff/employees
-strength/heavy or weight
-stretch/grow
-stronghold/fortified place
-subway/vehicle
-swivel/turn
-syndrome/illness
-thyme/herb
-topaz/mineral
-transcript/written version
-transplant/transfer
-twelfth/numbered
-unknown/?
-unworthy/undeserving
-unzip/jacket or backpack
-vaporize/water to gas
-voodoo/doll
-vortex/whirlwind(whirling)
-walkway/path
-waltz/dance
-wave/beach
-wavy/texture
-waxy/texture
-wheezy/breathing
-wimpy/weak
-witchcraft/magic
-wizard/magical
-wristwatch/time
-xylophone/instrument
-yachtsman/occupation
-youthful/young
-yummy/delicious
-zephyr/breeze
-zigzag/pattern
-zigzagging/pattern
-zipper/part of a jacket or backpack
-zodiac/astrology
-zombie/dead(-ish)
+rhubarb/herb or spice
+rhythm/
+rickshaw
+schnapps
+scratch
+snazzy
+sphinx
+squawk
+staff
+strength
+stretch
+stronghold
+subway
+swivel
+syndrome
+thriftless
+thumbscrew
+thyme
+topaz
+transcript
+transgress
+transplant
+twelfth
+unknown
+unworthy
+unzip
+uptown
+vaporize
+vodka
+voodoo
+vortex
+walkway
+waltz
+wave
+wavy
+waxy
+wheezy
+whiskey
+whizzing
+whomever
+wimpy
+witchcraft
+wizard
+woozy
+wristwatch
+xylophone
+yachtsman
+yippee
+yoked
+youthful
+yummy
+zephyr
+zigzag
+zigzagging
+zipper
+zodiac
+zombie
