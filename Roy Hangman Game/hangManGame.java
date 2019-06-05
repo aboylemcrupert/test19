@@ -24,7 +24,7 @@ public class hangManGame implements GameState{
 		int rand = (int)(Math.random()*words.size());
 		answer = words.get(rand);
 		hint = hints.get(rand);
-		System.out.println(hint);
+		// System.out.println(hint);
 		drawHangManSetup();
 		lettersEntered = new ArrayList<String>();
 		winCounter = 0;
@@ -38,7 +38,7 @@ public class hangManGame implements GameState{
 		ArrayList<String> newList = new ArrayList<String>();
 		hints = new ArrayList<String>();
 		while(!input.eof()){
-			String temp = input.readWord();
+			String temp = input.readLine();
 			for(int c = 0; c < temp.length(); c++){
 				if(temp.substring(c,c+1).equals("/")){
 					newList.add(temp.substring(0,c));
@@ -195,171 +195,3 @@ public class hangManGame implements GameState{
 		return "hi";
 	}
 }
-// abruptly
-// abyss
-// affix
-// askew
-// avenue
-// awkward
-// bagpipes
-// bandwagon
-// banjo
-// beekeeper
-// bikini
-// blitz
-// blizzard
-// boggle
-// bookworm
-// boxcar
-// buckaroo
-// buffalo
-// buffoon
-// buzzard
-// buzzing
-// chartreuse
-// cobweb
-// cockiness
-// croquet
-// crypt
-// cycle
-// dizzying
-// duplex
-// dwarves
-// embezzle
-// equip
-// espionage
-// exodus
-// faking
-// fishhook
-// fixable
-// fjord
-// flapjack
-// flopping
-// fluffiness
-// foxglove
-// frazzled
-// frizzled
-// fuchsia
-// funny
-// galaxy
-// gazebo
-// gizmo
-// glowworm
-// glyph
-// gnarly
-// gossip
-// grogginess
-// haiku
-// haphazard
-// hyphen
-// icebox
-// injury
-// ivory
-// jackpot
-// jawbreaker
-// jaywalk
-// jazziest
-// jazzy
-// jelly
-// jigsaw
-// jinx
-// jockey
-// jogging
-// joking
-// jovial
-// joyful
-// juicy
-// jukebox
-// jumbo
-// kayak
-// kazoo
-// keyhole
-// khaki
-// kilobyte
-// kiosk
-// kiwi
-// klutz
-// knapsack
-// larynx
-// lengths
-// lucky
-// luxury
-// lymph
-// matrix
-// microwave
-// mystify
-// nightclub
-// nymph
-// oxidize
-// oxygen
-// pajama
-// peekaboo
-// phlegm
-// pixel
-// pizazz
-// pneumonia
-// polka
-// psyche
-// puppy
-// puzzling
-// quartz
-// queue
-// quiz
-// quizzes
-// rhubarb
-// rhythm
-// rickshaw
-// schnapps
-// scratch
-// snazzy
-// sphinx
-// squawk
-// staff
-// strength
-// stretch
-// stronghold
-// subway
-// swivel
-// syndrome
-// thriftless
-// thumbscrew
-// thyme
-// topaz
-// transcript
-// transgress
-// transplant
-// twelfth
-// unknown
-// unworthy
-// unzip
-// uptown
-// vaporize
-// vodka
-// voodoo
-// vortex
-// walkway
-// waltz
-// wave
-// wavy
-// waxy
-// wheezy
-// whiskey
-// whizzing
-// whomever
-// wimpy
-// witchcraft
-// wizard
-// woozy
-// wristwatch
-// xylophone
-// yachtsman
-// yippee
-// yoked
-// youthful
-// yummy
-// zephyr
-// zigzag
-// zigzagging
-// zipper
-// zodiac
-// zombie
