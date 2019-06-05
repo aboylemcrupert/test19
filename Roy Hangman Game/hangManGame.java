@@ -24,7 +24,7 @@ public class hangManGame implements GameState{
 		int rand = (int)(Math.random()*words.size());
 		answer = words.get(rand);
 		hint = hints.get(rand);
-		System.out.println(hint);
+		//System.out.println(hint);
 		drawHangManSetup();
 		lettersEntered = new ArrayList<String>();
 		winCounter = 0;
@@ -38,7 +38,7 @@ public class hangManGame implements GameState{
 		ArrayList<String> newList = new ArrayList<String>();
 		hints = new ArrayList<String>();
 		while(!input.eof()){
-			String temp = input.readWord();
+			String temp = input.readLine();
 			for(int c = 0; c < temp.length(); c++){
 				if(temp.substring(c,c+1).equals("/")){
 					newList.add(temp.substring(0,c));
