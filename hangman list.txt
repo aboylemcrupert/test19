@@ -76,9 +76,9 @@ luxury/expensive
 microwave/food
 mystify/baffle
 nymph/mythology
-oxidize/oxygen
+oxidize/add oxygen
 oxygen/air
-pajama/sleep
+pajamas/sleep
 peekaboo/game
 pixel/small unit
 pizazz/glamour
