@@ -14,10 +14,6 @@ public class Player{
 			winnerIs.setColor(Color.BLUE);
 			winnerIs.grow(80,30);
 			winnerIs.draw();
-			
-			// Text winner = new Text(540,400,name);
-			// winner.grow(20,20);
-			// winner.draw();
 			return name;
 	}
 	
